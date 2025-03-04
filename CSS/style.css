@@ -99,12 +99,12 @@ header {
     padding-top: 50px;
 }
 
-.first_row {
+.row {
     display: flex;
     justify-content: space-evenly;
 }
 
-.first_row > div > div > a > img {
+.row > div > div > a > img {
     width: 120px;
     border: purple 1px solid;
     border-radius: 15px;
@@ -123,5 +123,19 @@ header {
     transition: 0.5s;
 }
 
+#no_results{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 
+.no_results {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    background-color: rgba(128, 0, 128, 0.733);
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 10px;
+}
 
