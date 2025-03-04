@@ -118,9 +118,10 @@ header {
 
 }
 
-li {
-    list-style-type: none;
-  }
+.parte_item:hover{
+    transform: scale(104%);
+    transition: 0.5s;
+}
 
 
 
